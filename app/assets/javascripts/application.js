@@ -12,4 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require twitter/bootstrap
+//= require raphael
+//= require mainpage
 //= require_tree .
