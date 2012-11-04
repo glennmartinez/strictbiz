@@ -1,5 +1,8 @@
 Strictbiz::Application.routes.draw do
  
+ match 'mainpage/test' => 'mainpage#personal'
+
+ resources  :mainpage
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
    root :to => 'mainpage#index'
